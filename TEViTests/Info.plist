@@ -18,6 +18,13 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Quicksand-Bold.otf</string>
+		<string>Quicksand-Regular.otf</string>
+		<string>Quicksand-Light.otf</string>
+		<string>Raleway-Regular.ttf</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

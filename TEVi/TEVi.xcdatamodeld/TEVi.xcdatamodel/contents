@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Labolg" representedClassName="Labolg" syncable="YES">
+        <attribute name="idL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valor" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tarjetas" representedClassName="Tarjetas" syncable="YES">
+        <attribute name="afiliacionFichaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="afiliacionFichaImagen" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="bin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cvv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fotoFicha" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="idFondoFicha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="naturalezaContable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noFichaHidden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombreBanco" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombreTitular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tituloFicha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenFicha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vigencia" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES">
+        <attribute name="apMaterno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apPaterno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Validaciones" representedClassName="Validaciones" syncable="YES">
+        <attribute name="idValidacion" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="valor" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Labolg" positionX="-63" positionY="54" width="128" height="75"/>
+        <element name="Usuario" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="Validaciones" positionX="-63" positionY="54" width="128" height="75"/>
+        <element name="Tarjetas" positionX="-63" positionY="54" width="128" height="270"/>
+    </elements>
+</model>
